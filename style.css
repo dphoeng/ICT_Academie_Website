@@ -1,24 +1,33 @@
 .header {
-  background-color: whitesmoke;
-  padding: 70px;
+  background-color: white;
+  height: 160px;
 }
 
-.header a {
+.nav {
   float: right;
   color: black;
-  text-align: center;
-  padding: 28px 32px;
+  line-height: 160px;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-size: 20px;
   text-decoration: none;
 }
 
-.header a:hover {
+.nav:hover {
 	background-color: black;
 	color: white;
+}
 
-
+img#header {
+	width: 160px;
+	padding-left: 30px;
 }
 
 .topnav {
 	background-color: black;
 	padding: 10px;
+}
+
+body {
+	margin: 0%;
 }
