@@ -23,17 +23,14 @@ img#header {
 	padding-left: 30px;
 }
 
-.topnav {
-	background-color: black;
-	padding: 10px;
-}
-
 body {
 	margin: 0%;
 }
 
 .item1 {
 	grid-area: header;
+	border-style: outset;
+	
 }
 
 .item2 {
