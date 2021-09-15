@@ -6,7 +6,7 @@
 .nav {
 	float: right;
 	color: black;
-	line-height: 160px;
+	line-height: 161px;
 	padding-right: 40px;
 	padding-left: 40px;
 	font-size: 20px;
@@ -29,37 +29,35 @@ body {
 
 .item1 {
 	grid-area: header;
-	border-style: outset;
-	
+	border-top: 5px solid;
+	border-bottom: 5px solid;
+
 }
 
 .item2 {
 	grid-area: main;
-	background-color: blue;
 	padding: 10px;
-}
+	width: 80%;
+	margin: 0 auto;
+	}
 
 .item3 {
 	grid-area: left;
-	background-color: lightblue;
 	padding: 10px;
 }
 
 .item4 {
 	grid-area: right;
-	background-color: cyan;
 	padding: 10px;
 }
 
 .item5 {
 	grid-area: middle;
-	background-color: blueviolet;
 	padding: 10px;
 }
 
 .item6 {
 	grid-area: bottom;
-	background-color: pink;
 	padding: 10px;
 }
 
