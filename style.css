@@ -18,7 +18,7 @@
 	color: white;
 }
 
-img#header {
+img#headerlogo {
 	width: 160px;
 	padding-left: 30px;
 }
@@ -39,7 +39,7 @@ body {
 	padding: 10px;
 	width: 80%;
 	margin: 0 auto;
-	}
+}
 
 .item3 {
 	grid-area: left;
