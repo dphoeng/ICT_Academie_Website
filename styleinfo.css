@@ -1,0 +1,102 @@
+.header {
+	background-color: lightgray;
+	height: 160px;
+}
+
+.nav {
+	float: right;
+	color: black;
+	line-height: 161px;
+	padding-right: 40px;
+	padding-left: 40px;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: 'Gluten', cursive;
+}
+
+.nav:hover {
+	background-color: black;
+	color: white;
+	font-family: 'Gluten', cursive;
+}
+
+img#header {
+	width: 160px;
+	padding-left: 30px;
+}
+
+body {
+	margin: 0%;
+}
+
+.item1 {
+	grid-area: header;
+	border-top: 5px solid;
+	border-bottom: 5px solid;
+
+}
+
+.item2 {
+	grid-area: main;
+	padding: 0.625em;
+	width: 80%;
+	margin: 0 auto;
+
+	}
+
+.item3 {
+	grid-area: right;
+	padding: 10px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+.grid-container {
+	display: grid;
+	grid-template-areas: 
+		'header header header header'
+		'main main main main'
+		'bottom bottom bottom bottom';
+}
+
+.aboutimg {
+	float: right;
+	margin-left: 20px;
+}
+
+p {
+	font-family: 'Gluten', cursive;
+	font-size: large;
+}
+
+h3 {
+	font-family: 'Gluten', cursive;
+}
+
+img#headerlogo {
+	width: 160px;
+	padding-left: 20px;
+}
+
+details {
+	border: 1px solid black;
+	border-radius: 4px;
+	padding: .5em .5em 0;
+}
+
+summary {
+	font-weight: bold;
+	margin: -.5em -.5em 0;
+	padding: .5em;
+}
+
+details[open] {
+	padding: .5em;
+}
+
+details[open] summary {
+	border-bottom: 1px solid black;
+	margin-bottom: .5em;
+}
+
