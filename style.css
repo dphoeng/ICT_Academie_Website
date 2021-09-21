@@ -1,5 +1,9 @@
+body {
+	margin: 0%;
+}
+
 .header {
-	background-color: white;
+	background-color: lightgray;
 	height: 160px;
 }
 
@@ -7,10 +11,10 @@
 	float: right;
 	color: black;
 	line-height: 161px;
-	padding-right: 40px;
-	padding-left: 40px;
+	padding: 0 40px;
 	font-size: 20px;
 	text-decoration: none;
+	font-family: 'Gluten', cursive;
 }
 
 .nav:hover {
@@ -20,11 +24,7 @@
 
 img#headerlogo {
 	width: 160px;
-	padding-left: 30px;
-}
-
-body {
-	margin: 0%;
+	padding-left: 20px;
 }
 
 .item1 {
@@ -36,28 +36,28 @@ body {
 .item2 {
 	grid-area: main;
 	padding: 10px;
-	width: 80%;
+	width: 93%;
 	margin: 0 auto;
 }
 
 .item3 {
 	grid-area: left;
-	padding: 10px;
+	padding: 26px 10px 10px;
 }
 
 .item4 {
 	grid-area: right;
-	padding: 10px;
+	padding: 26px 21px 10px 10px;
 }
 
 .item5 {
 	grid-area: middle;
-	padding: 10px;
+	padding: 10px 21px 10px 10px;
 }
 
 .item6 {
 	grid-area: bottom;
-	padding: 10px;
+	padding: 10px 21px 10px 10px;
 }
 
 .grid-container {
@@ -69,6 +69,22 @@ body {
 		'main main bottom bottom';
 }
 
+img#floating {
+	float: right;
+	margin-left: 20px;
+	margin-top: 16px;
+}
+
+h1#middletext {
+	text-align: right;
+}
+
 p {
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-family: 'Gluten', cursive;
+	font-size: large;
+}
+ 
+h1 {
+	font-family: 'Gluten', cursive;
+	
 }
