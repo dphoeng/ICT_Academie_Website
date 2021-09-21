@@ -1,5 +1,5 @@
 .header {
-	background-color: white;
+	background-color: lightgray;
 	height: 160px;
 }
 
@@ -70,7 +70,12 @@ p {
 	font-family: 'Gluten', cursive;
 	font-size: large;
 }
- 
+
 h3 {
 	font-family: 'Gluten', cursive;
+}
+
+img#headerlogo {
+	width: 160px;
+	padding-left: 20px;
 }

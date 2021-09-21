@@ -76,12 +76,16 @@ img#floating {
 }
 
 h1#middletext {
+	text-align: center;
+}
+
+h1#righttext {
 	text-align: right;
 }
 
 p {
 	font-family: 'Gluten', cursive;
-	font-size: large;
+	font-size: 21px;
 }
  
 h1 {
