@@ -4,13 +4,20 @@
 }
 
 .item2 {
-	grid-area: main;
+	grid-area: middle;
 	padding: 10px;
 	width: 80%;
 	margin: 0 auto;
 }
 
 .item3 {
+	grid-area: left;
+	padding: 10px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.item4 {
 	grid-area: right;
 	padding: 10px;
 	width: 80%;
@@ -21,10 +28,9 @@
 .grid-container {
 	display: grid;
 	grid-template-areas: 
-		'header header header header'
-		'main main right right'
-		'main main right right'
-		'main main right right';
+		'header header'
+		'middle middle'
+		'left right';
 }
 
 .aboutimg {
