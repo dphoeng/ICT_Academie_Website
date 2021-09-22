@@ -21,10 +21,8 @@
 .grid-container {
 	display: grid;
 	grid-template-areas: 
-		'header header header header'
-		'main main right right'
-		'main main right right'
-		'main main right right';
+		'header header'
+		'main right';
 }
 
 .aboutimg {
