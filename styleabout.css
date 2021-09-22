@@ -4,7 +4,7 @@
 }
 
 .item2 {
-	grid-area: main;
+	grid-area: left;
 	padding: 10px;
 	width: 80%;
 	margin: 0 auto;
@@ -17,12 +17,11 @@
 	margin: 0 auto;
 }
 
-
 .grid-container {
 	display: grid;
 	grid-template-areas: 
 		'header header'
-		'main right';
+		'left right';
 }
 
 .aboutimg {
