@@ -12,22 +12,22 @@
 
 .item3 {
 	grid-area: left;
-	padding: 26px 10px 10px;
+	margin: 26px 10px 10px;
 }
 
 .item4 {
 	grid-area: right;
-	padding: 26px 21px 10px 10px;
+	margin: 26px 21px 10px 10px;
 }
 
 .item5 {
 	grid-area: middle;
-	padding: 10px 21px 10px 10px;
+	margin: 10px 21px 10px 10px;
 }
 
 .item6 {
 	grid-area: bottom;
-	padding: 10px 21px 10px 10px;
+	margin: 10px 21px 10px 10px;
 }
 
 .grid-container {
@@ -43,6 +43,7 @@ img#floating {
 	float: right;
 	margin-left: 20px;
 	margin-top: 16px;
+	margin-bottom: 5px;
 }
 
 h1#middletext {
