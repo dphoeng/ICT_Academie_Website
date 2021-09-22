@@ -1,7 +1,6 @@
 .item1 {
 	grid-area: header;
-	border-top: 5px solid;
-	border-bottom: 5px solid;
+	box-shadow: 0 0 1rem 0 rgba(0,0,0,.5);
 }
 
 .item2 {
