@@ -7,8 +7,13 @@ body, html {
 	background-color: #EAF3F7;
 }
 
+.wrapper {
+	background-image: url('images/Daltonlaan-300-Utrecht.png');
+	background-repeat: no-repeat;
+}
+
 .header {
-	background-color: lightskyblue;
+	background-color: lightgray;
 	height: 160px;
 }
 
@@ -41,7 +46,7 @@ img#headerlogo {
 
 p {
 	font-family: 'Gluten', cursive;
-	font-size: large;
+	font-size: 20px;
 }
 
 h1, h3 {
