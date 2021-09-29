@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html >
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="stylegeneral.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@100&display=swap" rel="stylesheet">
+<html>
+<link rel="stylesheet" href="styleinfo.css">
+<link rel="stylesheet" href="stylegeneral.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gluten:wght@100&display=swap" rel="stylesheet">
+
 <head>
 	<title>ICT ACADEMIE</title>
 </head>
+
 <body>
-	<div class="grid-container">
+	<div class="grid-container wrapper">
 		<div class="header item1">
 			<a href="index.html"><img id="headerlogo" src="images/ictacademie2.png" alt="ict academie logo"></a>
 			<a class="nav" href="faq.html"><strong>FAQ</strong></a>
@@ -18,22 +20,87 @@
 			<a class="nav" href="info.html"><strong>Info</strong></a>
 			<a class="nav" href="index.html"><strong>Home</strong></a>
 		</div>
+
 		<div class="item2">
-			<img id="floating" src="images/ictaca2.jpg" alt="ict" width="40%">
-			<h1>Ik weet wat ik wil!</h1>
-			<h1 id="righttext">Laat zien wat ik kan!</h1>
-			<h1 id="middletext">Ik ga mijn eigen weg!</h1>
-			<p>
-				Ben je er klaar voor om je mouwen op te stropen en iets nieuws te leren? Welkom bij ICT-ACADEMIE, een van de beste scholen in zijn soort. Ons doel is om onze studenten de vaardigheden, ervaring en het vertrouwen te geven die ze nodig hebben om succesvolle professionals te worden. Ons programma is flexibel en onze leerkrachten zijn de beste in hun vakgebied. (Neem contact met ons op voor meer informatie!)
-			</p>
-			<p>
-				Are you ready to roll up your sleeves and learn something new? Welcome to ICT ACADEMY, one of the best schools of its kind. Our goal is to give our students the skills, experience and confidence they need to become successful professionals. Our program is flexible and our teachers are the best in their field. (Contact us for more information!)
-			</p>
+
+			<div class="wrap-collabsible"> <input id="collapsible2" class="toggle" type="checkbox">
+				<label for="collapsible2" class="lbl-toggle">Wat ga je leren?</label>
+				<div class="collapsible-content">
+					<div class="content-inner">
+						<p> 
+							Tijdens deze drie tot vier-jarige opleiding leer je hoe je zelfstandig apps, 
+							games of webapplicaties kunt maken met behulp van frameworks en object georiënteerd programmeren. 
+							Het is een echte programmeeropleiding, geen knippen en plakken maar degelijk codekloppen.
+							Je verdiept je in nieuwe ontwikkelingen zoals AI en Big Data. 
+							Je werkt projectmatig en gebruikt programmeertalen zoals PHP, C#, Typescript en SQL. 
+							Je ontwikkelt je beroepshouding, presentatietechnieken en leert samen te werken. 
+							Je leert een product ontwikkelen, bouwen, testen, documenteren en opleveren.
+                            Naarmate je verder komt in je studie ga je je niet alleen verder verdiepen/verbreden door middel 
+							van keuzedelen maar leer je ook je werk te documenteren. De opleiding sluit je in het derde / 
+							vierde leerjaar af met een beroepsgericht examen.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="wrap-collabsible"> <input id="collapsible3" class="toggle" type="checkbox">
+				<label for="collapsible3" class="lbl-toggle">Inhoud en vakken</label>
+				<div class="collapsible-content">
+					<div class="content-inner">
+						<p> 
+						   De inhoud van de opleiding bestaat uit technische en algemene vakken:
+						   <ul>
+                           <li>Webdevelopment</li> 
+                           <li>Appdevelopement</li>
+                           <li>Gamedevelopment</li>
+                           <li>Systeemontwikkeling</li>
+                           <li>Databaseontwikkeling</li>
+                           <li>Security</li>
+                           <li>Projectmanagement</li>
+                           <li>Algemene vakken zoals Nederlands, Engels, rekenen en burgerschap</li>
+						   </ul>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="wrap-collabsible"> <input id="collapsible4" class="toggle" type="checkbox">
+				<label for="collapsible4" class="lbl-toggle">Stagelopen</label>
+				<div class="collapsible-content">
+					<div class="content-inner">
+						<p> 
+							In het laatste deel van je opleiding loop je stage en werk je bij een bedrijf van jouw leergebied. 
+							Je loopt het hele jaar drie tot vier dagen stage.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="wrap-collabsible"> <input id="collapsible5" class="toggle" type="checkbox">
+				<label for="collapsible5" class="lbl-toggle">Vooropleiding en toelating</label>
+				<div class="collapsible-content">
+					<div class="content-inner">
+						<p> 
+							
+							Geldt één van de onderstaande situaties voor jou? Dan mag je je aanmelden voor deze opleiding:
+							<ul>
+                            <li>Je hebt een diploma vmbo kader, GL, TL of MAVO</li> 
+						    <li>Je hebt een overgangsbewijs van havo 3 naar havo 4</il>
+						    <li>Diploma mbo niveau 2 of 3</li>
+						    </ul>
+						</p>
+					</div>
+				</div>
+			</div>
+
+
+
+
 		</div>
-		<div class="item3"><a href="info.html"><img src="images/info4.jpg" alt="info" width="100%"></a></div>
-		<div class="item4"><a href="about.html"><img src="images/About-us-.jpg" alt="aboutus" width="100%"></a></div>
-		<div class="item5"><a href="contact.html"><img src="images/contact.jpg" alt="contact" width="100%"></a></div>
-		<div class="item6"><a href="faq.html"><img src="images/faq.jpg" alt="faq" width="100%"></a></div>
 	</div>
+
+
+
 </body>
+
 </html>
