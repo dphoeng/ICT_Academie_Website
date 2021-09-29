@@ -10,8 +10,7 @@ body, html {
 .wrapper {
 	background-image: url('images/Daltonlaan-300-Utrecht.png');
 	background-repeat: no-repeat;
-	width: 100vw;
-	height: 100vh;
+	min-height: 100%;
 }
 
 .header {
