@@ -12,6 +12,7 @@
 	padding: 10px 20px 10px 21px;
 	width: 90%;
 	margin: 14px 0 15px 5%;
+	border-radius: 5px 0 0 5px;
 }
 
 .item3 {
@@ -24,6 +25,7 @@
 	grid-area: right;
 	padding: 26px 21px 10px 10px;
 	margin: 14px 10% 0 0;
+	border-top-right-radius: 5px;
 }
 
 .item5 {
@@ -36,6 +38,7 @@
 	grid-area: bottom;
 	padding: 10px 21px 10px 10px;
 	margin: 0 5.1% 15px 0;
+	border-bottom-right-radius: 5px;
 }
 
 .grid-container {
