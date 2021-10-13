@@ -1,14 +1,9 @@
-.item1 {
-	grid-area: header;
+.header {
 	box-shadow: 0 0 1rem 0 rgba(0,0,0,.5);
 }
 
 .item2 {
 	background-color: rgba(244,244,244,.65);
-}
-
-.item3 {
-	background-color: blue;
 }
 
 .item3 {
@@ -87,4 +82,11 @@ input[type='checkbox'] {
 
 .collapsible-content p {
 	margin-bottom: 0;
+}
+
+div.main {
+	width: 92%;
+	background-color: rgba(244,244,244,.65);
+	margin: 14px auto;
+	padding: 10px;
 }

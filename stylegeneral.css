@@ -44,7 +44,7 @@ img#headerlogo {
 	padding-left: 20px;
 }
 
-p, li {
+p, li, label {
 	font-family: 'Oxygen', sans-serif;
 	font-size: 20px;
 }
