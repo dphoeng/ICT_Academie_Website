@@ -1,29 +1,16 @@
-.item2, .item3, .item4, .item5, .item6 {
-	background-color: rgba(244,244,244,.65);
-}
-
-.item1 {
-	grid-area: header;
+.header {
 	box-shadow: 0 0 1rem 0 rgba(0,0,0,.5);
 }
 
-.item2 {
-	grid-area: main;
-	padding: 10px 20px 10px 21px;
-	width: 90%;
-	margin: 14px 0 15px 5%;
+div.main {
+	padding: 10px 20px;
+	width: 92%;
+	margin: 14px auto;
+	background-color: rgba(244,244,244,.65);
+	border-radius: 5px;
 }
 
-.grid-container {
-	display: grid;
-	grid-template-areas: 
-		'header header header header'
-		'main main left right'
-		'main main left middle'
-		'main main bottom bottom';
-}
-
-img#floating {
+.floating {
 	float: right;
 	margin-left: 20px;
 	margin-top: 16px;

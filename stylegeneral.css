@@ -26,13 +26,12 @@ body, html {
 	padding-left: 40px;
 	font-size: 20px;
 	text-decoration: none;
-	font-family: 'Gluten', cursive;
+	font-family: 'Oxygen', sans-serif;
 }
 
 .nav:hover {
 	background-color:darkblue;
 	color: white;
-	font-family: 'Gluten', cursive;
 }
 
 img#header {
@@ -45,11 +44,11 @@ img#headerlogo {
 	padding-left: 20px;
 }
 
-p {
-	font-family: 'Gluten', cursive;
+p, li {
+	font-family: 'Oxygen', sans-serif;
 	font-size: 20px;
 }
 
-h1, h3 {
-	font-family: 'Gluten', cursive;
+h1, h2, h3 {
+	font-family: 'Oxygen', sans-serif;
 }
