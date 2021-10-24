@@ -2,17 +2,6 @@
 	box-shadow: 0 0 1rem 0 rgba(0,0,0,.5);
 }
 
-.item2 {
-	background-color: rgba(244,244,244,.65);
-}
-
-.item3 {
-	grid-area: bottom;
-	padding: 0px 15% 0 15%;
-	width: 52.6%;
-	margin: 0 auto 15px auto;
-}
-
 .aboutimg {
 	float: right;
 	margin-left: 20px;
@@ -81,12 +70,13 @@ input[type='checkbox'] {
 }
 
 .collapsible-content p {
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }
 
 div.main {
 	width: 92%;
 	background-color: rgba(244,244,244,.65);
 	margin: 14px auto;
-	padding: 10px;
+	padding: 10px 20px;
+	border-radius: 5px;
 }
