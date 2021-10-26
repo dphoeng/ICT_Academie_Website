@@ -80,3 +80,7 @@ div.main {
 	padding: 10px 20px;
 	border-radius: 5px;
 }
+
+h2#mainhead {
+	text-align: center;
+}
